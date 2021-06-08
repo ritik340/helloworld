@@ -11,15 +11,15 @@ int main( )
 
 
 	char dataToBeWritten[50]
-		= "GeeksforGeeks-A Computer Science Portal for Geeks";
+		= "data t0 be written in file";
 
 
-	filePointer = fopen("GfgTest.c", "w") ;
+	filePointer = fopen("Test.c", "w") ;
 
 
 	if ( filePointer == NULL )
 	{
-		printf( "GfgTest.c file failed to open." ) ;
+		printf( "Test.c file failed to open." ) ;
 	}
 	else
 	{
@@ -38,7 +38,7 @@ int main( )
 
 		fclose(filePointer) ;
 
-		printf("Data successfully written in file GfgTest.c\n");
+		printf("Data successfully written in file Test.c\n");
 		printf("The file is now closed.") ;
 	}
 	return 0;
